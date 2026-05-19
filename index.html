@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>سنتي - تذكر كل شيء</title>
+    <!-- ربط الـ PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- إعدادات ثيم المتصفح -->
+    <meta name="theme-color" content="#1f3a4b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="سنتي">
     <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Google Fonts -->
@@ -74,11 +81,9 @@
                 </div>
             </div>
             <div class="tasks-list" id="tasksListContainer">
-                <!-- سيتم عرض المهام ديناميكياً -->
                 <div class="empty-msg">✨ لا توجد تذكيرات، أضف تذكيراً جديداً!</div>
             </div>
 
-            <!-- جزء الخدمات المستقبلية (قابل للتوسع) -->
             <div class="future-services">
                 <p><i class="fas fa-microphone-alt"></i> خدمات قادمة في سنتي:</p>
                 <span>📢 تنبيهات صوتية</span>
@@ -93,4 +98,4 @@
 
 <script src="js/app.js"></script>
 </body>
-</html>
+                    </html>
