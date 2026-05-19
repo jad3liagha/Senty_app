@@ -3,19 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>سنتي - تذكر كل شيء</title>
-    <!-- ربط الـ PWA Manifest -->
+    <title>سنتي - تذكير بكل شيء</title>
     <link rel="manifest" href="manifest.json">
-    <!-- إعدادات ثيم المتصفح -->
     <meta name="theme-color" content="#1f3a4b">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="سنتي">
-    <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <!-- التنسيقات الخاصة -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,7 +21,6 @@
     </div>
 
     <div class="dashboard">
-        <!-- قسم إضافة مهمة جديدة -->
         <div class="add-section">
             <div class="card-title">
                 <i class="fas fa-plus-circle" style="color:#ffb347"></i> 
@@ -35,7 +29,7 @@
             <form id="taskForm">
                 <div class="form-group">
                     <label><i class="fas fa-heading"></i> العنوان *</label>
-                    <input type="text" id="taskTitle" placeholder="مثال: اجتماع مهم, شراء هدية, موعد طبيب" required maxlength="100">
+                    <input type="text" id="taskTitle" placeholder="مثال: اجتماع مهم، شراء هدية، موعد طبيب" required maxlength="100">
                 </div>
                 <div class="form-group">
                     <label><i class="fas fa-align-left"></i> تفاصيل إضافية</label>
@@ -68,7 +62,6 @@
             </form>
         </div>
 
-        <!-- عرض المهام والخدمات المستقبلية -->
         <div class="tasks-section">
             <div class="tasks-header">
                 <div class="card-title" style="margin-bottom:0;">
@@ -81,7 +74,7 @@
                 </div>
             </div>
             <div class="tasks-list" id="tasksListContainer">
-                <div class="empty-msg">✨ لا توجد تذكيرات، أضف تذكيراً جديداً!</div>
+                <!-- سيتم عرض المهام هنا بواسطة JavaScript -->
             </div>
 
             <div class="future-services">
@@ -98,4 +91,4 @@
 
 <script src="js/app.js"></script>
 </body>
-    </html>
+        </html>
